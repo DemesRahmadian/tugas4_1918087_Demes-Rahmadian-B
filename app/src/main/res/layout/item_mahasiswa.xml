@@ -2,28 +2,60 @@
 <androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:elevation="3dp"
-    app:cardCornerRadius="5dp"
-    app:cardUseCompatPadding="true">
-    <LinearLayout
+    android:layout_margin="6dp"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#ffffff"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="5dp"
-        android:layout_margin="5dp">
+        android:layout_height="70dp"
+        android:layout_margin="6dp"
+        android:orientation="vertical">
+
+
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/tv_nama"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:id="@+id/txt_nama"/>
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            android:textColor="#0B0A0A"
+            android:textStyle="bold"
+            tools:text="Nama" />
+
+
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/tv_nim"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:id="@+id/txt_nim"/>
+            android:layout_below="@+id/tv_nama"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="20dp"
+            tools:text="Nim" />
+
         <TextView
-            android:layout_width="match_parent"
+            android:id="@+id/tv_angkatan"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
-            android:id="@+id/txt_angkatan"/>
-    </LinearLayout>
+            android:layout_below="@+id/tv_nim"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp"
+            tools:text="Angakatan" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/img_pp"
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="315dp"
+            app:civ_border_color="#ffffff"
+            app:civ_border_width="2dp" />
+
+
+    </RelativeLayout>
 </androidx.cardview.widget.CardView>
