@@ -6,7 +6,7 @@ android {
     compileSdk 31
 
     defaultConfig {
-        applicationId "com.example.pertemuan_4"
+        applicationId "com.example.tgs4_RecycleView"
         minSdk 21
         targetSdk 31
         versionCode 1

@@ -1,4 +1,4 @@
-package com.example.pertemuan_4;
+package com.example.tgs4_RecycleView;
 
 import android.view.LayoutInflater;
 import android.view.View;

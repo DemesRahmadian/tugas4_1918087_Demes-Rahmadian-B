@@ -1,4 +1,4 @@
-    package com.example.pertemuan_4;
+    package com.example.tgs4_RecycleView;
 
     import androidx.appcompat.app.AppCompatActivity;
     import androidx.recyclerview.widget.LinearLayoutManager;
@@ -34,10 +34,10 @@
 
         private void addData() {
             mahasiswaArrayList = new ArrayList<>();
-            mahasiswaArrayList.add(new Mahasiswa(R.drawable.fotosmk,"Nur Achmad Abdillah ", "1918107", "2019"));
-            mahasiswaArrayList.add(new Mahasiswa(R.drawable.ic_launcher_background,"Budi", "1718082", "2017"));
-            mahasiswaArrayList.add(new Mahasiswa(R.drawable.fotosmk,"Mufid ", "1818002", "2018"));
-            mahasiswaArrayList.add(new Mahasiswa(R.drawable.ic_launcher_foreground,"Banteng", "1618008", "2016"));
-            mahasiswaArrayList.add(new Mahasiswa(R.drawable.fotosmk,"Aku", "1618039", "2016"));
+            mahasiswaArrayList.add(new Mahasiswa(R.drawable.biru,"NAMA : Demes Rahmadian B ", "NIM : 1918087", "ANGKATAN : 2019"));
+            mahasiswaArrayList.add(new Mahasiswa(R.drawable.ic_cow,"NAMA : Zaenal Ade Putra", "NIM : 1911085", "ANGKATAN : 2019"));
+            mahasiswaArrayList.add(new Mahasiswa(R.drawable.ic_cew,"NAMA : Sasmita ", "NIM : 1818011", "ANGKATAN : 2018"));
+            mahasiswaArrayList.add(new Mahasiswa(R.drawable.ic_cew,"NAMA : Fitri", "NIM : 1712071", "ANGKATAN : 2017"));
+            mahasiswaArrayList.add(new Mahasiswa(R.drawable.ic_cow,"NAMA : Joko", "NIM : 1718020", "ANGKATAN : 2017"));
         }
     }

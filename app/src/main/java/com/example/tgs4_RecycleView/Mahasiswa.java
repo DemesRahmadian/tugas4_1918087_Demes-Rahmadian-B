@@ -1,4 +1,4 @@
-package com.example.pertemuan_4;
+package com.example.tgs4_RecycleView;
 
 public class Mahasiswa {
     private String mNama,mNim,mAngkatan;
